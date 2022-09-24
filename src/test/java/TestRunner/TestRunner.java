@@ -8,12 +8,12 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		  features= {"Feature/DataTable.feature"},
+		  features= {"Feature/all.feature"},
 		  glue= {"StepDefination"},
 		  dryRun=false,
 		  monochrome=true,
-	      plugin= {"html:Reports/abc.html"}
-		 // tags=""
+	      plugin= {"html:Reports/abc.html"},
+		 tags= "not @OD"
 		)
 
 

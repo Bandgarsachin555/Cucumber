@@ -8,7 +8,7 @@ Feature: Analytical based lending
     Given user in on loan account creation page
     When enter customer details
     Then account got creation
-@Loan @OD
+ @OD
   Scenario: test od activation funcinality
     Given add Customer name
     When account got created
